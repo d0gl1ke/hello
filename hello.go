@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/d0gl1ke/sqrtmath"
+)
 
 func main() {
-    fmt.Printf("hello,world\n")
+	fmt.Printf("hello,world. Sqrt(2) = %v\n", sqrtmath.Sqrt(2))
 }
